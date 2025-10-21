@@ -2,11 +2,11 @@
     Private Sub buttonClick_Click(sender As Object, e As EventArgs) Handles buttonClick.Click
         Dim names As List(Of String) = New List(Of String) From {"Crystal", "Jamaica", "Carmelo", "Angelo", "Tin", "Jo"}
 
-        Dim lessThanFive = names.Where(Function(n) n.Length <= 5)
+        Dim upperNames = names.Select(Function(n) n.ToUpper())
 
         Dim outputMessage As String = ""
 
-        For Each namee In lessThanFive
+        For Each namee In upperNames
             outputMessage += namee & " "
         Next
 
