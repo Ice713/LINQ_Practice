@@ -4,7 +4,13 @@
 
         Dim evenNumbers = numbers.Where(Function(n) n Mod 2 = 0)
 
-        Dim 
+        Dim outputMessage As String = ""
+
+        For Each num In evenNumbers
+            outputMessage += num & " "
+        Next
+
+        labelOutput.Text = outputMessage
     End Sub
 End Class
 
