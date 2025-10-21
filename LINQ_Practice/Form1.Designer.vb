@@ -40,7 +40,7 @@ Partial Class Form1
         Me.labelOutput.AutoSize = True
         Me.labelOutput.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.labelOutput.ForeColor = System.Drawing.Color.Red
-        Me.labelOutput.Location = New System.Drawing.Point(295, 137)
+        Me.labelOutput.Location = New System.Drawing.Point(122, 150)
         Me.labelOutput.Name = "labelOutput"
         Me.labelOutput.Size = New System.Drawing.Size(83, 25)
         Me.labelOutput.TabIndex = 1
