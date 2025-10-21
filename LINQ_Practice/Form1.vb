@@ -2,7 +2,7 @@
     Private Sub buttonClick_Click(sender As Object, e As EventArgs) Handles buttonClick.Click
         Dim names As List(Of String) = New List(Of String) From {"Crystal", "Jamaica", "Carmelo", "Angelo", "Tin", "Jo"}
 
-        Dim upperNames = names.OrderBy(Function(n) n)
+        Dim upperNames = names.OrderByDescending(Function(n) n)
 
         Dim outputMessage As String = ""
 
